@@ -12,6 +12,7 @@ ws1.title = "电影top250"
 
 DOWNLOAD_URL = 'http://movie.douban.com/top250/'
 
+print ("获取url地址")
 
 def download_page(url):
     """获取url地址页面内容"""
